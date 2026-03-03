@@ -69,9 +69,6 @@ Since your project predicts **5 personality traits** from handwriting using an M
 
 Accuracy measures the overall percentage of correctly predicted personality classes.
 
-[
-Accuracy = \frac{\text{Correct Predictions}}{\text{Total Predictions}}
-]
 
 It shows how well the model performs overall.
 
@@ -81,10 +78,6 @@ It shows how well the model performs overall.
 
 Precision tells how many predicted personality labels are actually correct.
 
-[
-Precision = \frac{TP}{TP + FP}
-]
-
 High precision means fewer wrong personality assignments.
 
 ---
@@ -92,10 +85,6 @@ High precision means fewer wrong personality assignments.
 ###  Recall
 
 Recall measures how many actual personality samples were correctly identified.
-
-[
-Recall = \frac{TP}{TP + FN}
-]
 
 High recall means fewer missed predictions.
 
@@ -105,9 +94,6 @@ High recall means fewer missed predictions.
 
 F1-score is the balance between Precision and Recall.
 
-[
-F1 = 2 \times \frac{Precision \times Recall}{Precision + Recall}
-]
 
 It is useful when class distribution is uneven.
 
